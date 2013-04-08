@@ -15,7 +15,7 @@ var ltsv = new ltsv2json({stringify: true});
 fs.createReadStream('ltsv-access.log').pipe(ltsv).pipe(process.stdout);
 ```
 
-you can also use parse() for parse LTSV format record into josn.
+you can also use parse() for parse LTSV format record into json.
 
 ```js
 var ltsv = new ltsv2json();
